@@ -9,7 +9,5 @@ I tried to implement RESTful API's to perform CRUD operations on the database, b
 a little confused on asynchronous queries in RESTful APIs, if I didn't have to ping a database I think I could manage.
 
 # Home Page
-[![Admin-Panel-All-Students.png](https://i.postimg.cc/QdKgrmyV/Admin-Panel-All-Students.png)](https://postimg.cc/nXZ944Zt)
-
-
+[![Admin-Panel-All-Students.png](https://i.postimg.cc/tCv0cqKp/Admin-Panel-All-Students.png)](https://postimg.cc/qzKZhTB5)
 # List of all students on PostgreSQL table
