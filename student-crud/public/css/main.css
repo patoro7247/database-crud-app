@@ -1,6 +1,6 @@
 @font-face {
     font-family: "Quicksand";
-    src: url();
+    src: local('Quicksand');
 }
 
 body {
@@ -10,6 +10,11 @@ body {
     font-size: 18px;
 
 }
+
+.introduction {
+    padding-left: 10px;
+}
+
 
 .header {
     font-family: "Quicksand", sans-serif;

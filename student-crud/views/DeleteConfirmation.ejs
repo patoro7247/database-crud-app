@@ -1,0 +1,7 @@
+<p>Are you sure you want to delete <%= id %>?</p>
+<form name="deleteUser" method="POST" action="/students/delete"  >
+    <input type="hidden" name="id" value="<%= id %>" />
+    <td colspan="2"><input type = "submit" value="Confirm"></td>
+</form>
+
+<a href="/students"><button>Cancel</button></a>

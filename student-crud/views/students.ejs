@@ -1,3 +1,7 @@
+<div class="sub-header">
+    <h1>Listing all students</h1>
+    <a href="/students/createStudent/1">Create Student</a>
+</div>
 <table class="styled-table">
     <thead>
         <tr>
@@ -6,6 +10,7 @@
             <th>Last Name</th>
             <th>Gender</th>
             <th>GPA</th>
+            <th></th>
             <th></th>
         </tr>
     </thead>
@@ -19,7 +24,8 @@
                 <td><%= student.last_name %></td>
                 <td><%= student.gender %></td>
                 <td><%= student.gpa %></td>
-                <td><a href="/students/<%= student.id %>">Edit</a></td>
+                <td><a href="/students/update/<%= student.id %>">Edit</a></td>
+                <td><a href="/students/delete/<%= student.id %>">Delete</a></td>
             </tr>
         <% }) %>
 

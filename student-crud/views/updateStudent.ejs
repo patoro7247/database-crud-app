@@ -3,6 +3,7 @@
         </div>       
         <form name="updateUser" method="POST" action="/students/update"  >
         <table class="styled-table">
+            <input type="hidden" name="id" value="<%= id %>" />
             <tr>
             <td>First Name</td>
             <td><input type="text" name="first_name" ></td>
@@ -22,5 +23,6 @@
             <tr>
             <td colspan="2"><input type = "submit" value="Save"></td>
             </tr>
+            
         </table>
         </form>
