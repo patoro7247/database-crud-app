@@ -2,41 +2,43 @@
     <h1>Listing all students</h1>
     <a href="/students/createStudent/1">Create Student</a>
 </div>
-<table class="styled-table">
-    <thead>
-        <tr>
-            <th>ID</th>
-            <th>First Name</th>   
-            <th>Last Name</th>
-            <th>Gender</th>
-            <th>GPA</th>
-            <th></th>
-            <th></th>
-        </tr>
-    </thead>
-    <tbody>
-        
-        
-        <% studentList.forEach(function(student) { %>
+<div class="table-move">
+    <table class="styled-table">
+        <thead>
             <tr>
-                <td><%= student.id %></td>
-                <td><%= student.first_name %></td>
-                <td><%= student.last_name %></td>
-                <td><%= student.gender %></td>
-                <td><%= student.gpa %></td>
-                <td><a href="/students/update/<%= student.id %>">Edit</a></td>
-                <td><a href="/students/delete/<%= student.id %>">Delete</a></td>
+                <th>ID</th>
+                <th>First Name</th>   
+                <th>Last Name</th>
+                <th>Gender</th>
+                <th>GPA</th>
+                <th></th>
+                <th></th>
             </tr>
-        <% }) %>
+        </thead>
+        <tbody>
+            
+            
+            <% studentList.forEach(function(student) { %>
+                <tr>
+                    <td><%= student.id %></td>
+                    <td><%= student.first_name %></td>
+                    <td><%= student.last_name %></td>
+                    <td><%= student.gender %></td>
+                    <td><%= student.gpa %></td>
+                    <td><a href="/students/update/<%= student.id %>">Edit</a></td>
+                    <td><a href="/students/delete/<%= student.id %>">Delete</a></td>
+                </tr>
+            <% }) %>
 
-        
+            
 
-        <!--
-        <tr class="active-row">
-            <td>Melissa</td>
-            <td>5150</td>
-        </tr>
-        -->
-        
-    </tbody>
-    </table>
+            <!--
+            <tr class="active-row">
+                <td>Melissa</td>
+                <td>5150</td>
+            </tr>
+            -->
+            
+        </tbody>
+        </table>
+</div>

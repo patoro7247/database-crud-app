@@ -15,6 +15,13 @@ body {
     padding-left: 10px;
 }
 
+.table-move {
+    padding-left: 10px;
+}
+
+.sub-header {
+    padding-left: 10px;
+}
 
 .header {
     font-family: "Quicksand", sans-serif;
