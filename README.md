@@ -12,7 +12,7 @@ a little confused on asynchronous queries in RESTful APIs, if I didn't have to p
 [![Admin-Panel-Home.png](https://i.postimg.cc/RCJ5Y67d/Admin-Panel-Home.png)](https://postimg.cc/MXwFMGrf)
 
 # List of all students on PostgreSQL table
-[![Admin-Panel-All-Students.png](https://i.postimg.cc/Cx2vGdWn/Admin-Panel-All-Students.png)](https://postimg.cc/3kgC7rr3)
+[![Admin-Panel-All-Students.png](https://i.postimg.cc/bYF3cZwC/Admin-Panel-All-Students.png)](https://postimg.cc/0rDp72mD)
 
 # Updating a Student's Information
 [![Admin-Panel-Update-Student.png](https://i.postimg.cc/QMYw4hVv/Admin-Panel-Update-Student.png)](https://postimg.cc/zLWx3mCk)
